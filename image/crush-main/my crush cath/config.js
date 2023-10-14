@@ -1,0 +1,16 @@
+const CONFIG = {
+    titleWeb: " asking crush",
+    introTitle: 'Catherine Mabato',
+    introDesc: `Ang ganda ng umaga because of you. Ang ganda ng dream ko, it was all about you. Ang sakit ng ulo ko, puro you na lang ng you. Sabi ni doc, maybe because I miss you.`,
+    btnIntro: '💘💘Hi💘💘',
+    title: 'Na-love at first sight ka ba 🥰',
+    desc: 'Baka lasing ako simula nung nakita ko yung ngiti na yun',
+    btnYes: 'Gusto ko ito ♡ ♥💕❤😘',
+    btnNo: 'Hindi 😠',
+    question: 'Mayroong higit sa 7 bilyong tao sa mundo, bakit mo ako mahal  <3',
+    btnReply: 'Ipinadala sa iyo  <3',
+    reply: 'wala namang bibig ang puso ng tao and love should not be questioned by why. Sapat na yung alam niya kung gaano ka totoo yung pagmamahal mo sa kanya. Kahit na walang mabulaklak na salitang bitawan pa',
+    mess: 'Alam Mo . Mahal na mahal kita 😘😘 😘😘',
+    messDesc: 'Ngayong gabi ng 7pm, susunduin kita at lalabas tayo.',
+    btnAccept: 'Okiiiii ILY ❤',
+}

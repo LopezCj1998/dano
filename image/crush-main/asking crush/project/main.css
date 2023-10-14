@@ -1,0 +1,86 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+/* Header CSS Start */
+.header {
+    display: flex;
+    height: 15vh;
+    background: linear-gradient(90deg, rgba(252,176,69,1) 23%, rgba(253,29,29,1) 53%, rgba(131,58,180,1) 90%);
+    align-items: center;
+    overflow: hidden;
+    padding: 50px; /* Add some padding for better spacing on all screens */
+}
+
+.navbar {
+    height: 10vh;
+    width: 10vh;
+}
+
+.logo {
+    height: 13vh;
+    width: auto; /* Adjust width for responsiveness */
+    max-width: 50%; /* Ensure the logo doesn't exceed its container */
+    margin-top: -1.2vh;
+}
+
+.navbar p {
+    font-size: 3rem;
+    margin-top: 1.5vh;
+    margin-left: 3.5vh;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.navigation {
+    margin-left: 50%;
+    overflow: hidden;
+}
+
+.navigation a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 2vh 3vh;
+    text-decoration: none;
+    font-size: 1.4rem;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.navigation a:hover {
+    color: black;
+}
+
+.navigation a.active {
+    background-color: #04AA6D;
+    color: white;
+}
+
+/* Media Query for Responsive Design */
+@media screen and (max-width: 600px) {
+    .header {
+        flex-direction: column; /* Stack items vertically on smaller screens */
+        text-align: center; /* Center text on smaller screens */
+    }
+
+    .navbar {
+        height: auto; /* Remove fixed height for mobile */
+        width: auto; /* Remove fixed width for mobile */
+    }
+
+    .logo {
+        height: auto; /* Remove fixed height for mobile */
+        width: 70%; /* Adjust width for mobile */
+        max-width: 200px; /* Add a max-width for larger screens */
+        margin-top: 10px; /* Add margin for better spacing on smaller screens */
+    }
+
+    .navbar p {
+        font-size: 2rem; /* Reduce font size for mobile */
+        margin-top: 10px; /* Adjust margin for better spacing on smaller screens */
+        margin-left: 0; /* Reset margin for mobile */
+    }
+
+    .navigation {
+        margin-left:
+    }
+}
